@@ -1,0 +1,17 @@
+.ul-menu {
+  width: 630px;
+  justify-content: space-around;
+}
+.ul-menu a {
+  text-decoration: none;
+}
+
+.ul-menu li {
+  color: #9767a9;
+  font-size: 15px;
+}
+
+.ul-menu a:hover {
+  font-weight: bold;
+}
+

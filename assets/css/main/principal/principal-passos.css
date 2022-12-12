@@ -1,0 +1,24 @@
+.principal-passos {
+  background-color: #9767a9;
+  width: 100%;
+}
+
+.principal-passos-grid {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: 1300px;
+  color: white;
+  height: 250px;
+}
+
+.principal-passos-grid h2 {
+  width: 700px;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.principal-passos-grid p {
+  width: 500px;
+}

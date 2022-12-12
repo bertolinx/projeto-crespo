@@ -1,0 +1,212 @@
+@import url(principal-crespo.css);
+@import url(principal-passos.css);
+@import url(principal-dicas.css);
+@import url(principal-cards.css);
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .principal-crespo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url(../../../pictures/cabeludo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -250px;
+    height: 500px;
+    min-width: 320px;
+    color: white;
+  }
+
+  .principal-crespo h1 {
+    font-size: 65px;
+    width: 265px;
+    margin: 100px 0px 0px 25px;
+  }
+
+  .principal-crespo p {
+    font-size: 20px;
+    margin: 10px 0px 0px 30px;
+    width: 250px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .principal-passos-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 310px;
+    height: 370px;
+  }
+
+  .principal-passos-grid h2 {
+    width: 310px;
+    font-size: 21px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .principal-passos-grid p {
+    width: 310px;
+    padding-bottom: 20px;
+    word-break: break-word;
+    text-align: justify;
+  }
+
+  .seila {
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .principal-crespo h1 {
+    font-size: 78px;
+    width: 265px;
+    margin: 100px 0px 0px 25px;
+  }
+
+  .principal-crespo p {
+    font-size: 38px;
+    margin: 10px 0px 0px 30px;
+    width: 450px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .principal-passos-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 280px;
+  }
+
+  .principal-passos-grid h2 {
+    width: 450px;
+    font-size: 21px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .principal-passos-grid p {
+    width: 450px;
+    padding-bottom: 20px;
+    word-break: break-word;
+    text-align: justify;
+  }
+
+  .box-text div {
+    width: 450px;
+    padding: 20px 0px 30px 0px;
+    color: white;
+  }
+
+  .pictures {
+    position: relative;
+    bottom: -30px;
+    width: 300px;
+  }
+
+  .principal-cards-grid {
+    width: 450px;
+    margin: auto;
+  }
+
+  .card-one-one {
+    width: 217px;
+  }
+
+  .card-one-two {
+    width: 105px;
+  }
+
+  .card-one-three {
+    width: 110px;
+  }
+
+  .card-one-four {
+    width: 220px;
+  }
+
+  .card-two {
+    width: 450px;
+    padding: 35px 0px 35px 0px;
+  }
+
+  .card-two img {
+    width: 100%;
+  }
+
+  .card-three {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .card-three-one {
+    width: 130px;
+    height: 270px;
+  }
+
+  .card-three-two {
+    width: 130px;
+    height: 270px;
+  }
+
+  .card-three-three {
+    width: 130px;
+    height: 130px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .card-three-four {
+    width: 130px;
+    height: 130px;
+  }
+
+  .card-three-five {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .card-four {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .card-four img {
+    width: 100%;
+    height: 685px;
+  }
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+ 
+  .principal-crespo {
+    background-position: -200px;
+    height: 500px;
+    min-width: 320px;
+    color: white;
+  }
+
+  .principal-crespo h1 {
+    font-size: 80px;
+    width: 400px;
+    margin: 120px 0px 0px 25px;
+  }
+
+  .principal-crespo p {
+    font-size: 38px;
+    margin: 10px 0px 0px 30px;
+    width: 590px;
+    font-weight: 300;
+    text-align: left;
+  }
+}

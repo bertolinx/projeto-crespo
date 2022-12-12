@@ -1,0 +1,9 @@
+.ul-menu-img {
+  width: 130px;
+  justify-content: space-between;
+}
+
+.ul-menu-img img {
+  width: 50px;
+  height: 35px;
+}
