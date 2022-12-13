@@ -8,11 +8,13 @@
   align-items: center;
   margin: 0 auto;
   height: 80px;
+
 }
 
 input {
   font-weight: 400;
-  background: transparent url(../../pictures/Layer_3.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(../../pictures/Layer_3.svg) 0% 0% no-repeat
+    padding-box;
   background-position: 5px;
   padding-left: 30px;
   width: 170px;

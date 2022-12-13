@@ -1,0 +1,23 @@
+.box-mobile-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 40px 0px;
+}
+
+
+
+.redes-sociais img {
+width: 40px;
+background-color: white;
+border-radius: 50%;
+
+}
+
+
+.arrows-icons img{
+  width: 25px;
+  height: 25px;
+  background-color: #9767a9;
+  border-radius: 50%;
+}
